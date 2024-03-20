@@ -5,7 +5,7 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 
-ar=[{"name":"betty","age":20},{"name":"alex","age":21},{"name":"shadi","age":15}]
+ar=[{"name":"betty","age":20},{"name":"alex","age":21},{"name":"shady","age":25}]
 
 @app.route('/')
 def hello():
